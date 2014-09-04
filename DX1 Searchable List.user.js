@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name       DX1 Searchable List
 // @namespace  http://demo2.dx1app.com/
-// @version    1.1
+// @version    1.2
 // @description  Make Dealer Dropdown a Searchable List
 // @match      https://*.dx1app.com/*
 // @copyright  2014, Tyler Hall
@@ -1492,7 +1492,7 @@ function addGlobalStyle(css) {
 }
 
 addGlobalStyle(
-    '#metroDdlddlDealershipSelection{width:385px!important} #metroDdlddlDealershipSelection input {position: fixed;top: 2px;left: 74px;border: solid 1px #0074b6;padding: 5px 14px;margin: 0!important;color: #000!important;width: 385px;} #metroDdlddlDealershipSelection input:focus {outline:none;border-color:#aaa;} #dx1DealerSelect{padding:0;} ul.dxdropdown-list {padding-top:0;}'
+    '#dx1DealerSelect>li{width:383px!important} #metroDdlddlDealershipSelection input {position: fixed;top: 2px;left: 74px;border: solid 1px #0074b6;padding: 5px 14px;margin: 0!important;color: #000!important;width: 385px;} #metroDdlddlDealershipSelection input:focus {outline:none;border-color:#aaa;} #dx1DealerSelect{padding:0;} ul.dxdropdown-list {padding-top:0;}'
 );
 
 $('#metroDdlddlDealershipSelection').one('DOMNodeInserted', function(event) {
