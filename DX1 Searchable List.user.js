@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name       DX1 Searchable List
 // @namespace  http://demo2.dx1app.com/
-// @version    1.0
+// @version    1.1
 // @description  Make Dealer Dropdown a Searchable List
 // @match      https://*.dx1app.com/*
 // @copyright  2014, Tyler Hall
