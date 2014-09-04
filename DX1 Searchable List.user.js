@@ -1492,7 +1492,7 @@ function addGlobalStyle(css) {
 }
 
 addGlobalStyle(
-    '#metroDdlddlDealershipSelection input {position: fixed;top: 2px;left: 74px;border: solid 1px #0074b6;padding: 5px 14px;margin: 0!important;color: #000!important;width: 385px;} #metroDdlddlDealershipSelection input:focus {outline:none;border-color:#aaa;} #dx1DealerSelect{padding:0;} ul.dxdropdown-list {padding-top:0;}'
+    '#metroDdlddlDealershipSelection{width:385px!important} #metroDdlddlDealershipSelection input {position: fixed;top: 2px;left: 74px;border: solid 1px #0074b6;padding: 5px 14px;margin: 0!important;color: #000!important;width: 385px;} #metroDdlddlDealershipSelection input:focus {outline:none;border-color:#aaa;} #dx1DealerSelect{padding:0;} ul.dxdropdown-list {padding-top:0;}'
 );
 
 $('#metroDdlddlDealershipSelection').one('DOMNodeInserted', function(event) {
